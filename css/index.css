@@ -4,7 +4,7 @@ body {
 
 
 
-/* Navigation bar styles ============= */
+/* Navigation bar styles */
 #mainNav {
     border-color: rgba(34, 34, 34, 0.05);
     background-color:#CD72A5;
@@ -61,7 +61,7 @@ body {
     color: #fdcc52;
   }
 
-  /* Hero section ============= */
+  /* Hero section */
 
 header.masthead {
     position: relative;
