@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-gb">
 
 <head>
     <!-- Required meta tags -->
@@ -7,10 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika Negative">
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <title>HoYu Lam // Web Developer</title>
 </head>
@@ -22,7 +39,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Junior Web Developer</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/logo3.png">Junior Web Developer</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -32,7 +49,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="about me">About Me</a>
+                            <a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#work">Work</a>
@@ -41,22 +58,24 @@
                             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+                            <a class="nav-link js-scroll-trigger" href="resume.pdf" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- End navbar -->
 
         <!-- Hero Section -->
-
         <header class="masthead">
             <div class="container h-100">
                 <div class="row h-100">
                     <div class="col-lg-7 my-auto">
                         <div class="header-content mx-auto">
-                            <h1 class="mb-5">I was elated to see an opening for a Junior Web Developer role.</h1>
-
+                            <div class="alert alert-danger" role="alert">
+                                <h1 class="display-4">HoYu Lam</h1>
+                                <p class="lead">I was elated to see an opening for a Junior Web Developer.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-5 my-auto">
@@ -67,9 +86,120 @@
                 </div>
             </div>
         </header>
+        <!-- End Hero Section -->
 
         <!-- Cards -->
-        
+        <div class="container-fluid content" id="work">
+            <h2 class="sectionHeading">Work</h2>
+            <div class="row showsNear">
+
+                <!-- Card 1 -->
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/work1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootcamp Prework</h5>
+                            <p class="card-text">Bootcamp prework page.</p>
+                            <a href="https://heralam.github.io/prework-study-guide/"
+                                class="btn btn-outline-danger">Let's
+                                check!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End card 1 -->
+
+                <!-- Card 2 -->
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/work2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Code Refactor Challenge</h5>
+                            <p class="card-text">Challenge begin with starter code that need to modify.</p>
+                            <a href="https://heralam.github.io/challenge-1/" class="btn btn-outline-danger">Let's
+                                check!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End card 2 -->
+
+                <!-- Card 3 -->
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/work3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Challenge</h5>
+                            <p class="card-text">Working with flexbox, media queries, and CSS variables.</p>
+                            <a href="https://heralam.github.io/portfolio/" class="btn btn-outline-danger">Let's
+                                check!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End card 3 -->
+            </div>
+        </div>
+        <!-- End cards -->
+
+        <!-- Content -->
+        <div class="container-fluid content" id="aboutme">
+            <h3 class="sectionHeading">About Me</h3>
+
+            <!-- Row 1 -->
+            <div class="row valueProp">
+                <div class="sideAccent">
+                </div>
+                <div class="col">
+                    About Me
+                </div>
+                <div class="about col-10">
+                    <p>
+                        I was elated to see an opening for a Junior Web Developer role.
+                    </p>
+                </div>
+            </div>
+            <!-- End row 1 -->
+
+            <!-- Row 2 -->
+            <div class="row valueProp">
+                <div class="sideAccent">
+                </div>
+                <div class="col">
+                    Skills
+                </div>
+                <div class="skill col-10">
+                    <p>
+                        HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+            </div>
+            <!-- End row 2 -->
+
+            <!-- Row 3 -->
+            <div class="row valueProp">
+                <div class="sideAccent">
+                </div>
+                <div class="col" id="contact">
+                    Contact Me
+                </div>
+                <div class="contact col-10">
+                    <a href="tel:+447741493004" class="no">+44 7741 493004</a>
+                    <a href="mailto:herahao@gmail.com" class="email">herahao@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/heralam/" target="_blank" class="linkedin">Linkedln</a>
+                </div>
+            </div>
+            <!-- End row 3 -->
+
+        </div>
+        <!-- End content -->
+
+
+        <!-- Footer-->
+        <footer>
+            <div class="footer">
+                <p>&copy; My portfolio page. All Rights Reserved.</p>
+
+            </div>
+        </footer>
+        <!-- End Footer-->
 
     </body>
 
