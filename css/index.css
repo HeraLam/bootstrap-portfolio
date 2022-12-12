@@ -36,9 +36,15 @@ h1, h2, h3 , h4, h5, h6 {
   }
   
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: #58d4e1;
+    color: #420662;
   }
   
+  .navbar-brand img {
+    padding-right: 5px;
+    padding-bottom: 5px ;
+    width: 50px;
+  }
+
   #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
@@ -114,4 +120,60 @@ header.masthead {
   }
   .cardContainer {
     text-align: center;
+  }
+
+  /* Content */
+.sideAccent {
+    background: #882D60;
+    width: 10px;
+  }
+
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .col {
+    padding: 50px;
+    font-size: 30px;
+  }
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+  .contact {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  }
+
+  .email {
+    padding: 90px;
+  }
+
+
+   /* footer */
+  footer {
+    padding: 20px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #CD72A5;
+  }
+  
+  footer p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
